@@ -6,38 +6,53 @@
   <short-name>calculatorUtils</short-name>
   <uri>calculatorUtils</uri>
   <function>
-    <name>calculate</name>
+    <name>isValid</name>
     <function-class>calculatorUtils.CalculatorUtil</function-class>
     <function-signature>boolean isValid(int,int,int)</function-signature>
   </function>
   <function>
-    <name>getNextOstatokOsnownogoDolga</name>
+    <name>getAnnuitetPaymentSumm</name>
     <function-class>calculatorUtils.CalculatorUtil</function-class>
-    <function-signature>float getNextOstatokOsnownogoDolga(int,int,float,float,float,float)</function-signature>
+    <function-signature>float getAnnuitetPaymentSumm(float,float)</function-signature>
   </function>
   <function>
-    <name>getNextSumm</name>
+    <name>getBodyPeyments</name>
     <function-class>calculatorUtils.CalculatorUtil</function-class>
-    <function-signature>float getNextSumm(int,int,float,float,float,float)</function-signature>
+    <function-signature>float getBodyPeyments(float,float)</function-signature>
   </function>
   <function>
-    <name>getAllPaymentCount</name>
+    <name>getEveryMonthProcents</name>
     <function-class>calculatorUtils.CalculatorUtil</function-class>
-    <function-signature>int getAllPaymentCount(int,int)</function-signature>
+    <function-signature>float getEveryMonthProcents(float)</function-signature>
   </function>
   <function>
-    <name>getNextDolg</name>
+    <name>getProcentPeyments</name>
     <function-class>calculatorUtils.CalculatorUtil</function-class>
-    <function-signature>int getNextDolg(int,int,float,float,float,float)</function-signature>
+    <function-signature>float getProcentPeyments(float,float)</function-signature>
   </function>
   <function>
-    <name>getNextMonthYear</name>
+    <name>getStartDate</name>
     <function-class>calculatorUtils.CalculatorUtil</function-class>
-    <function-signature>int getNextMonthYear(int,int,float,float,float,float)</function-signature>
+    <function-signature>java.util.Date getStartDate()</function-signature>
   </function>
   <function>
-    <name>getNextProcent</name>
+    <name>getNextDate</name>
     <function-class>calculatorUtils.CalculatorUtil</function-class>
-    <function-signature>int getNextProcent(int,int,float,float,float,float)</function-signature>
+    <function-signature>java.util.Date getNextDate(java.util.Date,int)</function-signature>
+  </function>
+  <function>
+    <name>getDolg</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>float getDolg(float,float)</function-signature>
+  </function>
+  <function>
+    <name>stringToFloat</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>float stringToFloat(java.lang.String)</function-signature>
+  </function>
+  <function>
+    <name>stringToInt</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>int stringToInt(java.lang.String)</function-signature>
   </function>
 </taglib>
