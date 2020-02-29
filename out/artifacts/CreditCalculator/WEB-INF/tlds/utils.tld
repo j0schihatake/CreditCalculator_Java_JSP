@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <description>calculatorUtils</description>
+  <display-name>calculatorUtils</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>calculatorUtils</short-name>
+  <uri>calculatorUtils</uri>
+  <function>
+    <name>isValid</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>boolean isValid(int,int,int)</function-signature>
+  </function>
+  <function>
+    <name>getAnnuitetPaymentSumm</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>float getAnnuitetPaymentSumm(float,float)</function-signature>
+  </function>
+  <function>
+    <name>getBodyPeyments</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>float getBodyPeyments(float,float)</function-signature>
+  </function>
+  <function>
+    <name>getEveryMonthProcents</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>float getEveryMonthProcents(float)</function-signature>
+  </function>
+  <function>
+    <name>getProcentPeyments</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>float getProcentPeyments(float,float)</function-signature>
+  </function>
+  <function>
+    <name>getStartDate</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>java.util.Date getStartDate()</function-signature>
+  </function>
+  <function>
+    <name>getNextDate</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>java.util.Date getNextDate(java.util.Date,int)</function-signature>
+  </function>
+  <function>
+    <name>getDolg</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>float getDolg(float,float)</function-signature>
+  </function>
+  <function>
+    <name>stringToFloat</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>float stringToFloat(java.lang.String)</function-signature>
+  </function>
+  <function>
+    <name>stringToInt</name>
+    <function-class>calculatorUtils.CalculatorUtil</function-class>
+    <function-signature>int stringToInt(java.lang.String)</function-signature>
+  </function>
+</taglib>
